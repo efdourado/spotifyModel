@@ -1,8 +1,6 @@
 import axios from "axios";
 
-// const URL = "https://deploy-jornada-full-stack.onrender.com/api";
-
-const URL = "http://localhost:3003/api";
+const URL = "https://spotifymodel.onrender.com/api";
 const responseArtists = await axios.get(`${URL}/artists`);
 const responseSongs = await axios.get(`${URL}/songs`);
 
