@@ -8,7 +8,7 @@ const Main = ({ type }) => {
     <div className="main">
       {type === "artists" || type === undefined ? (
         <ItemList
-          title="Artistas"
+          title="Artists"
           items={10}
           itemsArray={artistArray}
           path="/artists"
@@ -20,7 +20,7 @@ const Main = ({ type }) => {
 
       {type === "songs" || type === undefined ? (
         <ItemList
-          title="Músicas"
+          title="Songs"
           items={20}
           itemsArray={songsArray}
           path="/songs"
