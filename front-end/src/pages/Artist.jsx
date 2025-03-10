@@ -31,7 +31,7 @@ const Artist = () => {
       </div>
 
       <div className="artist__body">
-        <h2>Populares</h2>
+        <h2>Popular</h2>
 
         <SongList songsArray={songsArrayFromArtist} />
       </div>
